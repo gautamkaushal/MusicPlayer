@@ -56,7 +56,7 @@ public class MusicPlayer
                 Console.WriteLine("Currently playing");
                 Console.WriteLine($"Title: ***{song.Title}***");
                 Console.WriteLine($@"Artist: {song.Artist.Name}{Gap}Genre: {song.Genre.Name}{Gap}TimeofPlay: {song.Time}");
-                Console.WriteLine($"-------------You may choose to:{Gap}1. Play till end{Gap}2. ThumbsUp{Gap}3. ThumbsDown{Gap}4. Next{Gap}5. Exit");
+                Console.WriteLine($"-------------You may choose to:{Gap}1. ThumbsUp{Gap}2. ThumbsDown{Gap}3. Next{Gap}4. Play till end{Gap}5. Exit");
                 int songPreference = 0;
                 if (!int.TryParse(Console.ReadLine(), out songPreference))
                 {
